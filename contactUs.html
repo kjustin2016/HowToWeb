@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<html>
     <head>
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-GRZF69LTQT"></script>
@@ -9,52 +10,51 @@
         gtag('js', new Date());
         gtag('config', 'G-GRZF69LTQT');
         </script>
-        <title>HowTo - ContactUs</title>
+        <title>HowTo - Home Page</title>
         <meta charset="UTF-8">
-        <meta name="description" content="Contact us">
-        <meta name="keywords" content="HowToCo contact, contact HowToCo, contact">
+        <meta name="description" content="How to build a PC">
+        <meta name="keywords" content="build a PC, how to build a PC, PC building, building a PC">
         <meta name="author" content="Kenny Justin">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/styles1.css" rel="stylesheet">
     </head>
     <body>
         <header>
-            <h3><img src="images/howtologo.png" alt="Logo" width="50" height="50">Login/Signup</h3>
+            <h3 style="text-align:right" id="login"><img src="images/howtologo.png" style="float:left" alt="Logo" width="50" height="50">Login/Signup</h3>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="contactUs.html">Contact Us</a></li>
-                    <li><a href="howTo.html">HowTo</a></li>
+                    <li><a id="navbarel" href="index.html">Home</a></li>
+                    <li><a id="navbarel" href="howTo.html">HowTo</a></li>
+                    <li><a id="navbarel" href="contactUs.html">Contact Us</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <h1>Contact Us</h1>
-            <form method="POST" action="#insertlink">
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name"><br>
-                <label for="email">Email Address:</label><br>
-                <input type="text" id="email" name="email"><br>
-                <label for="message">Message:</label><br>
-               
-                <textarea id="message" name="message" rows="4" cols="25"></textarea>
-                <input type="submit" value="Submit">
+            <h1 style="text-align:center;background-color:rgb(76, 79, 106);">Contact Us</h1>
+            <aside style="float:left; height:725px;">
+                <h2 style="color:white;">Contact Information<br><br></h2>
+                <div>
+                    <h2 style="color:white;">Guy Dude</h2>
+                    <h3 style="color:white;">Important Job</h3>
+                    <p>email@real.com 843-123-4567</p>
+                    <h2 style="color:white;">Other Guy</h2>
+                    <h3 style="color:white;">etc...</h3>
+                </div>
+            </aside>
+            <form method="POST" action="#insertlink" style="margin-left:500px;">
+                <label for="name">Name:</label><br><br>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email Address:</label><br><br>
+                <input type="text" id="email" name="email"><br><br>
+                <label for="message">Message:</label><br><br>
+                <textarea id="message" name="message" rows="30" cols="112"></textarea><br><br>
+                <input style="width:100px;" type="submit" value="Submit">
             </form>
-        </main>
-    </body>
-    <aside>
-        <h2>Contact Information</h2>
-        <div>
-            <h3>Guy Dude</h3>
-            <h4>Important Job</h4>
-            <p>email@real.com 843-123-4567</p>
-            <h3>Other Guy</h3>
-            <h4>etc...</h4>
-        </div>
-    </aside>
+            </main>
     <footer>
         <section>
-            <p>Footer | Information | Socials | Contact Us | Contact numbers</p>
+            <p class="footer">Information | Socials | Contact Us | Contact numbers</p>
         </section>
     </footer>
+    </body>
 </html>
