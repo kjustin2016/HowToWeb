@@ -20,29 +20,37 @@
     </head>
     <body>
         <header>
-            <h3><img src="images/howtologo.png" alt="Logo" width="60" height="60">Login/Signup</h3>
+            <h3 style="text-align:right" id="login"><img src="images/howtologo.png" style="float:left" alt="Logo" width="50" height="50">Login/Signup</h3>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="contactUs.html">Contact Us</a></li>
-                    <li><a href="howTo.html">HowTo</a></li>
+                    <li><a id="navbarel" href="index.html">Home</a></li>
+                    <li><a id="navbarel" href="howTo.html">HowTo</a></li>
+                    <li><a id="navbarel" href="contactUs.html">Contact Us</a></li>
                 </ul>
             </nav>
         </header>
         <main>
             <article>
-                <img src="images/computerpic.jpg" alt="Article Picture" width="600" height="400">
-                <h3>Article Text</h3>
+                <img class="article" src="images/computerpic.jpg" alt="Article Picture" width="1200" height="700">
+                <h3 class="articletext">Article #1: How to Get Started On Building Your PC</h3>
+<div class="social-sharing" style="text-align:center;">
+<button id="share-facebook">Share on Facebook</button>
+<button id="share-twitter">Share on Twitter</button>
+</div>
             </article>
             <div>
-                    <h1>How To Co.</h1>
-                    <img src="images/howtologo.png" alt="Logo" width="100" height="100">
-                    <p>This is information about what we are about!</p>
+                <h1 class="align" style="font-size:50px;border-top:2px solid black;margin-top:230px;"><br><br>How To Co.</h1>
+                <img src="images/howtologo.png" style="float:left;margin-left:150px;" alt="Logo" width="250" height="250" style="padding:10px">
+                <p style="font-size:25px;width:500px;text-align:center;margin-left:500px;"><br>This is information about what we are about!<br>
+                    <br>Information about this website!<br><br>
+                    More information!
+                </p>
             </div>
         </main>
         <footer>
-            <p>Footer | Info | Social Media | Contact numbers/emails</p>
+            <p class="footer">Information | Socials | Contact Us | Contact numbers</p>
         </footer>
+        <script src="java/share.js"></script>
     </body>
 
 </html>
